@@ -1,20 +1,52 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Api-best-practices : API Best Practices provides a set of guidelines to be applied to your API during the API Lifecycle regardless of the platform." />
 
-  <h1>Posts</h1>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <title>Api-best-practices</title>
+  </head>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <body>
 
-</div>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dzuluaga/api-best-practices">View on GitHub</a>
+
+          <h1 id="project_title">Api-best-practices</h1>
+          <h2 id="project_tagline">API Best Practices provides a set of guidelines to be applied to your API during the API Lifecycle regardless of the platform.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/dzuluaga/api-best-practices/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/dzuluaga/api-best-practices/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="api-lifecycle-best-practices" class="anchor" href="#api-lifecycle-best-practices"><span class="octicon octicon-link"></span></a>api-lifecycle-best-practices</h1>
+
+<p>API Best Practices provides a set of guidelines to be applied to your API during the API Lifecycle regardless of the platform.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Api-best-practices maintained by <a href="https://github.com/dzuluaga">dzuluaga</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
